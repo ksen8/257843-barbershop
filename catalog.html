@@ -48,91 +48,135 @@
 	  
 	  <div class="catalog-filter">
 	    <h2>ПРОИЗВОДИТЕЛИ:</h2>
-		<form action="https://echo.htmlacademy.ru" method="post">
-	      <div>
-			<input type="checkbox" name="baxter-of-california" id="baxter-field" checked>
+		<form action="https://echo.htmlacademy.ru" method="get">
+		  <ul>
+		    <li>
+			  <input type="checkbox" name="baxter-of-california" id="baxter-field" checked>
                 <label for="baxter-field">BAXTER OF CALIFORNIA</label>
-		  </div>
-		  <div>
-			<input type="checkbox" name="mr-natty" id="mr-natty-field">
-              <label for="mr-natty-field">MR NATTY</label>
-		  </div>
-		  <div>
-		    <input type="checkbox" name="suavecito" id="suavecito-field" checked>
-              <label for="suavecito-field">SUAVECITO</label>
-		  </div>
-		  <div>
-			<input type="checkbox" name="malin-goetz" id="malin-goetz-field">
-              <label for="malin-goetz-field">MALIN+GOETZ</label>
-		  </div>
-		  <div>
-		    <input type="checkbox" name="murray" id="murray-field">
-              <label for="murray-field">MURRAY'S</label>
-		  </div>
-		  <div>
-		    <input type="checkbox" name="american-crew" id="american-crew-field" checked>
-              <label for="american-crew-field">AMERICAN CREW</label>
-		   </div>
-		
-	    <h2>ГРУППЫ ТОВАРОВ</h2>
-		
-		  <div>
-	        <input type="radio" name="product" id="shaving-accessories-field">
-              <label for="shaving-accessories-field">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
-		  </div>
-		  <div>
-		    <input type="radio" name="product" id="care-agents-field" checked>
-              <label for="care-agents-field">СРЕДСТВА ДЛЯ УХОДА</label>
-		  </div>
-		  <div>
-	        <input type="radio" name="product" id="accessories-field">
-              <label for="accessories-field">АКСЕССУАРЫ</label>
-	      </div>
+		    </li>
+		    <li>
+			  <input type="checkbox" name="mr-natty" id="mr-natty-field">
+                <label for="mr-natty-field">MR NATTY</label>
+		    </li>
+		    <li>
+		      <input type="checkbox" name="suavecito" id="suavecito-field" checked>
+                <label for="suavecito-field">SUAVECITO</label>
+		    </li>
+		    <li>
+			  <input type="checkbox" name="malin-goetz" id="malin-goetz-field">
+                <label for="malin-goetz-field">MALIN+GOETZ</label>
+		    </li>
+		    <li>
+		      <input type="checkbox" name="murray" id="murray-field">
+                <label for="murray-field">MURRAY'S</label>
+		    </li>
+		    <li>
+		      <input type="checkbox" name="american-crew" id="american-crew-field" checked>
+                <label for="american-crew-field">AMERICAN CREW</label>
+		    </li>
+		  </ul>
+		<h2>ГРУППЫ ТОВАРОВ</h2>
+		  <ul>
+		    <li>
+	          <input type="radio" name="product" id="shaving-accessories-field">
+                <label for="shaving-accessories-field">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+		    </li>
+		    <li>
+		      <input type="radio" name="product" id="care-agents-field" checked>
+                <label for="care-agents-field">СРЕДСТВА ДЛЯ УХОДА</label>
+		    </li>
+		    <li>
+	          <input type="radio" name="product" id="accessories-field">
+                <label for="accessories-field">АКСЕССУАРЫ</label>
+	        </li>
+		  </ul>
 		  <input type="submit" value="ПОКАЗАТЬ" class="btn">
 		</form>
 	  </div>
 	  
 	  <section class="catalog-content">
 	    <article class="catalog-item">
-		  <a class="catalog-picture" href="#"><img src="img/set-for-travel.jpg" width="220" height="165" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>
-		  <a class="catalog-item-title" href="#">Набор для путешествий "BAXTER OF CALIFORNIA"</a>
-		  <div class="catalog-item-price"> 2990 руб.</div>
-		  <a class="btn" href="#">КУПИТЬ</a>
+		  <a class="catalog-pic" href="#"><img src="img/set-for-travel.jpg" width="220" height="165" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>
+		  <h3>
+		    <a class="catalog-title" href="#">
+			  <span>Набор для путешествий</span>
+			  <span> "BAXTER OF CALIFORNIA"</span>
+			</a>
+		  </h3>
+		  <div class="catalog-buy">
+		    <span class="catalog-price">2990 руб.</span>
+		    <a class="btn" href="#">КУПИТЬ</a>
+		  </div>
 		</article>
 		
 		<article class="catalog-item">
-		  <a class="catalog-picture" href="#"><img src="img/hair-conditioner.jpg" width="220" height="165" alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA"></a>
-		  <a class="catalog-item-title" href="#">Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</a>
-		  <div class="catalog-item-price"> 750 руб.</div>
-		  <a class="btn" href="#">КУПИТЬ</a>
+		  <a class="catalog-pic" href="#"><img src="img/hair-conditioner.jpg" width="220" height="165" alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA"></a>
+		  <h3>
+		    <a class="catalog-title" href="#">
+			  <span>Увлажняющий кондиционер</span>
+			  <span>"BAXTER OF CALIFORNIA"</span>
+			</a>
+		  </h3>
+		  <div class="catalog-buy">
+		    <span class="catalog-price">750 руб.</span>
+		    <a class="btn" href="#">КУПИТЬ</a>
+		  </div>
 		</article>
 		
 		<article class="catalog-item">
-		  <a class="catalog-picture" href="#"><img src="img/hair-gel-suavecito.jpg" width="220" height="165" alt="Гель для волос SUAVECITO"></a>
-		  <a class="catalog-item-title" href="#">Гель для волос "SUAVECITO"</a>
-		  <div class="catalog-item-price"> 290 руб.</div>
-		  <a class="btn" href="#">КУПИТЬ</a>
+		  <a class="catalog-pic" href="#"><img src="img/hair-gel-suavecito.jpg" width="220" height="165" alt="Гель для волос SUAVECITO"></a>
+		  <h3>
+		    <a class="catalog-item-title" href="#">
+			  <span>Гель для волос</span>
+			  <span>"SUAVECITO"</span>
+			</a>
+		  </h3>
+		  <div class="catalog-buy">
+ 		    <span class="catalog-price">290 руб.</span>
+		    <a class="btn" href="#">КУПИТЬ</a>
+		  </div>
 		</article>
 		
 		<article class="catalog-item">
-		  <a class="catalog-picture" href="#"><img src="img/clay-for-hair.jpg" width="220" height="165" alt="Глина для укладки волос AMERICAN CREW"></a>
-		  <a class="catalog-item-title" href="#">Глина для укладки волос "AMERICAN CREW"</a>
-		  <div class="catalog-item-price"> 500руб.</div>
-		  <a class="btn" href="#">КУПИТЬ</a>
+		  <a class="catalog-pic" href="#"><img src="img/clay-for-hair.jpg" width="220" height="165" alt="Глина для укладки волос AMERICAN CREW"></a>
+		  <h3>
+		    <a class="catalog-item-title" href="#">
+		      <span>Глина для укладки волос</span>
+			  <span>"AMERICAN CREW"</span>
+		    </a>
+		  </h3>
+		  <div class="catalog-buy">
+ 		    <span class="catalog-price">500руб.</span>
+		    <a class="btn" href="#">КУПИТЬ</a>
+		  </div>
 		</article>
 		
 		<article class="catalog-item">
-		  <a class="catalog-picture" href="#"><img src="img/hair-gel-american-crew.jpg" width="220" height="165" alt="Гель для волос AMERICAN CREW"></a>
-		  <a class="catalog-item-title" href="#">Гель для укладки волос "AMERICAN CREW"</a>
-		  <div class="catalog-item-price"> 300руб.</div>
-		  <a class="btn" href="#">КУПИТЬ</a>
+		  <a class="catalog-pic" href="#"><img src="img/hair-gel-american-crew.jpg" width="220" height="165" alt="Гель для волос AMERICAN CREW"></a>
+		  <h3>
+		    <a class="catalog-item-title" href="#">
+		      <span>Гель для укладки волос</span>
+			  <span>"AMERICAN CREW"</span>
+		    </a>
+		  </h3>
+		  <div class="catalog-buy"> 
+		    <span class="catalog-price">300руб.</span>
+		    <a class="btn" href="#">КУПИТЬ</a>
+		  </div>
 		</article>
 		
 		<article class="catalog-item">
-		  <a class="catalog-picture" href="#"><img src="img/set-for-shaving.jpg" width="220" height="165" alt="Гель для волос AMERICAN CREW"></a>
-		  <a class="catalog-item-title" href="#">Набор для бритья "BAXTER OF CALIFORNIA"</a>
-		  <div class="catalog-item-price"> 3900руб.</div>
-		  <a class="btn" href="#">КУПИТЬ</a>
+		  <a class="catalog-pic" href="#"><img src="img/set-for-shaving.jpg" width="220" height="165" alt="Гель для волос AMERICAN CREW"></a>
+		  <h3>
+		    <a class="catalog-item-title" href="#">
+		      <span>Набор для бритья</span>
+			  <span>"BAXTER OF CALIFORNIA"</span>
+		    </a>
+		  </h3>
+		  <div class="catalog-buy">
+		    <span class="catalog-price">3900руб.</span>
+		    <a class="btn" href="#">КУПИТЬ</a>
+		  </div>
 		</article>
 	  </section>
 	  
