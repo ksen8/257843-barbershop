@@ -22,3 +22,9 @@ h2 {
 	 font-family: "PTSans";
 	 text-transform: uppercase;
 }
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background: black;
+}
